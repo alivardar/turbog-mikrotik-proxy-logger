@@ -24,7 +24,6 @@ prepare your mikrotik devices logs route to your server.  Mikrotik device web lo
 must be looks like that screen. If you have any connection problem with database please check
 debuglog.txt file in application installation directory.
 
-
 Download
 ----------------------------
 You can download full version.
@@ -33,6 +32,7 @@ SQLite edition also support self install. Just install and open your web browser
 Default username admin and password is 1
 Don’t forget prepare your mikrotik devices. You can learn more details from screen shots. All mikrotik configurations must be same with in application screen shots.
 
+![Alt text](http://www.turbog.com/wp-content/uploads/2012/05/service.png "title")
 
 Application Installation Steps
 ------------------------------
@@ -45,15 +45,12 @@ Application Installation Steps
 - Start 'TurboG Mikrotik Logger Service' from services.
 - You can connect to  http://127.0.0.1:8077 on an internet browser.
 
-
-
-
 Application Remove Steps
 ------------------------
-
 - Stop server from services.
 - Uninstall from 'Programs and Features' (Name can be different on your windows)
 - Remove user from MySQL server
 - Drop database from MySQL server
 
+![Alt text](http://www.turbog.com/wp-content/uploads/2012/05/mainscreen.png "title")
 
