@@ -1,0 +1,60 @@
+html {
+  cursor: text;
+}
+
+.editbox {
+  margin: .4em;
+  padding: 0;
+  font-family: monospace;
+  font-size: 10pt;
+  color: black;
+}
+
+pre.code, .editbox {
+  color: #666666;
+}
+
+.editbox p {
+  margin: 0;
+}
+
+span.pascal-punctuation {
+  color: green;
+}
+
+span.pascal-operator {
+  color: purple;
+}
+
+span.pascal-keyword {
+  color: blue;
+}
+
+span.pascal-atom {
+  color: brown;
+}
+
+span.pascal-variable {
+  color: black;
+}
+
+span.pascal-variabledef {
+  color: #0000FF;
+}
+
+span.pascal-localvariable {
+  color: #004499;
+}
+
+span.pascal-property {
+  color: black;
+}
+
+span.pascal-comment {
+  color: green;
+}
+
+span.pascal-string {
+  color: red;
+}
+

@@ -1,0 +1,3 @@
+TurboGMikrotikLoggerServiceControl: 00001060: 13:26:14 [CommandGet]:EUniSessionException : Invalid session or session Timeout.
+TurboGMikrotikLoggerServiceControl: 00000DE4: 13:57:06 [CommandGet]:EUniSessionException : Invalid session or session Timeout.
+TurboGMikrotikLoggerServiceControl: 000019CC: 14:10:36 [CommandGet]:EUniSessionException : Invalid session or session Timeout.

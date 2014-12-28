@@ -1,0 +1,36 @@
+.x-form-text, textarea.x-form-field {
+    background-image:none !important;
+}
+
+.x-form-field {
+    font:normal 11px tahoma, arial, helvetica, sans-serif;
+}
+
+.x-form-unitext {
+  height: 100% !important;
+  font:normal 11px tahoma, arial, helvetica, sans-serif;
+}
+
+.x-unilabel {
+  font:normal 11px tahoma, arial, helvetica, sans-serif;
+}
+
+.x-fieldset {
+   padding-top:0px;
+}
+
+.ext-ie .x-fieldset legend {
+    margin-bottom:0px;
+}
+
+.x-panel-white {
+  background-color: #fff !important; 
+}
+
+.x-panel-none {
+  background-color: none !important; 
+}
+
+.x-grid-row-summary {
+	font: normal 11px/15px tahoma, arial, verdana, sans-serif;
+}

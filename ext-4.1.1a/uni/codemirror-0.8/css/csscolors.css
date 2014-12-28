@@ -1,0 +1,73 @@
+html {
+  cursor: text;
+}
+
+.editbox {
+  margin: .4em;
+  padding: 0;
+  font-family: monospace;
+  font-size: 10pt;
+  color: black;
+}
+
+/* fm */
+.CodeMirror-wrapping {
+	background-color:#fff;
+}
+
+.CodeMirror-line-numbers {
+	width: 2.2em;
+	color: #aaa;
+	background-color: #eee;
+	text-align: right;
+	padding: .4em;
+	margin: 0;
+	font-family: monospace;
+	font-size: 10pt;
+	line-height: 1.1em;
+}
+/* fm */
+
+pre.code, .editbox {
+  color: #666;
+}
+
+.editbox p {
+  margin: 0;
+}
+
+span.css-at {
+  color: #708;
+}
+
+span.css-unit {
+  color: #281;
+}
+
+span.css-value {
+  color: #708;
+}
+
+span.css-identifier {
+  color: black;
+}
+
+span.css-selector {
+  color: #11B;
+}
+
+span.css-important {
+  color: #00F;
+}
+
+span.css-colorcode {
+  color: #299;
+}
+
+span.css-comment {
+  color: #A70;
+}
+
+span.css-string {
+  color: #A22;
+}

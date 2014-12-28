@@ -1,0 +1,71 @@
+
+
+- alias activation not completed, alias ip relation
+- installation guide
+- installation video youtube
+- delete old data with admin account
+
+
+
+
+
+
+function Get_MACAddress: string;
+var
+  UuidCreateFunc: function(var guid: TGUID): HRESULT; stdcall;
+  hr: HRESULT;
+  guid: TGUID;
+  hLibrary: THandle;
+begin
+  hLibrary := LoadLibrary('RPCRT4.DLL');
+
+  if Win32MajorVersion >= 5 then
+    // windows 2000 or above
+    @UuidCreateFunc := GetProcAddress(hLibrary, 'UuidCreateSequential')
+  else
+    @UuidCreateFunc := GetProcAddress(hLibrary, 'UuidCreate');
+
+  hr := UuidCreateFunc(guid);
+
+  if Failed(hr) then
+    RaiseLastWin32Error;
+
+  result := GUIDToString(guid);
+
+  // extract the last segment of the guid
+  result := Copy(result, 26, 12);
+end;
+
+
+
+function GetMACAddress: string;
+
+var
+
+ AdapterList: TLanaEnum; 
+
+ NCB: TNCB; 
+
+begin 
+
+ FillChar(NCB, SizeOf(NCB), 0); 
+
+ NCB.ncb_command := Char(NCBENUM); 
+
+ NCB.ncb_buffer := @AdapterList; 
+
+ NCB.ncb_length := SizeOf(AdapterList); 
+
+ Netbios(@NCB); 
+
+ if Byte(AdapterList.length) > 0 then
+
+   Result := GetAdapterInfo(AdapterList.lana[0]) 
+
+ else 
+
+   Result := 'mac not found'; 
+
+end;
+
+

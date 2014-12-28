@@ -1,0 +1,1 @@
+TurboGMikrotikLoggerServiceControl.exe /install /silent

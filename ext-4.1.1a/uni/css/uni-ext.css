@@ -1,0 +1,70 @@
+.ext-el-mask {
+/*    z-index: 20000 !important;*/
+}
+
+.x-panel {
+    font:normal 11px tahoma, arial, helvetica, sans-serif;
+}
+
+#loading-mask {
+  position: absolute;
+  left:     0;
+  top:      0;
+  width:    100%;
+  height:   100%;
+  z-index:  20000;
+  background-color: white;
+}
+
+#loading {
+  position: absolute;
+  left:     50%;
+  top:      50%;
+  padding:  2px;
+  z-index:  20001;
+  height:   auto;
+  margin:   -35px 0 0 -30px;
+}
+
+#loading .loading-indicator {
+  background: url(../images/loading.gif) no-repeat;
+  color:      #555;
+  font:       bold 13px tahoma,arial,helvetica;
+  padding:    8px 42px;
+  margin:     0;
+  text-align: center;
+  height:     auto;
+}
+
+.x-tree-node-icon-blank{
+	height: 1px !important;
+	width: 1px !important;
+}
+
+.x-uni-grid-cell-normal .x-grid-cell-inner {
+	white-space: normal;
+}
+
+.x-uni-btn-icon { 
+	background-position:center  !important;
+	height: auto !important;
+}
+
+.x-uni-btn-icon-notext { 
+	background-position:center  !important;
+	height: auto !important;
+	width: auto !important;
+}
+
+.x-unitoolbar-btn-icon { 
+	background-position: center  !important;
+	width: auto !important;
+}
+
+/* = disabled nodes
+----------------------------------------------- */
+.dvp-tree-node-disabled .x-grid-cell {
+   -moz-opacity: 0.5;
+   opacity:.5;
+   filter: alpha(opacity=50);
+}
