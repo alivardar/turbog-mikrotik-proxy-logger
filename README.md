@@ -27,7 +27,10 @@ debuglog.txt file in application installation directory.
 
 Download
 ----------------------------
-You can download full version.
+You can download full version. 
+
+https://github.com/alivardar/turbog-mikrotik-proxy-logger/blob/master/setupfiles/Output/setup.exe
+
 Latest version is 2.2
 SQLite edition also support self install. Just install and open your web browser 127.0.0.1:8077 that’s all.
 Default username admin and password is 1
