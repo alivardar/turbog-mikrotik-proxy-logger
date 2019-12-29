@@ -1,5 +1,6 @@
-TurboG Mikrotik Logger - M.Ali VARDAR - www.md5m.com
+TurboG Mikrotik Logger 
 ---------------------------------------------------------------
+M.Ali VARDAR - www.md5m.com
 
 It is a fully web based application for store Mikrotik Web logs to MySQL database server.  
 We tested on Windows 7 and Windows 8 systems.
