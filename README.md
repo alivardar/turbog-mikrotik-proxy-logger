@@ -1,5 +1,5 @@
 TurboG Mikrotik Logger 
-M.Ali VARDAR - www.turbog.com
+M.Ali VARDAR - www.md5m.com
 
 It is a fully web based application for store Mikrotik Web logs to MySQL database server.  
 We tested on Windows 7 and Windows 8 systems.
@@ -32,25 +32,32 @@ SQLite edition also support self install. Just install and open your web browser
 Default username admin and password is 1
 Don’t forget prepare your mikrotik devices. You can learn more details from screen shots. All mikrotik configurations must be same with in application screen shots.
 
-![Alt text](http://www.turbog.com/wp-content/uploads/2012/05/service.png "title")
+![Alt text](http://www.md5m.com/wp-content/uploads/2012/05/service.png "title")
 
 Application Installation Steps
 ------------------------------
 - Install MySQL server
+
 - Create a MySQL user
+
 - Import \MySQL_Database\latest.sql file to MySQL
-- Give to MySQL user permission for database 'turbogmikrotikloggerservice' 
-  you can change database name in latest.sql file
+
+- Give to MySQL user permission for database 'turbogmikrotikloggerservice' you can change database name in latest.sql file
+
 - Edit config ini file with your MySQL settings
+
 - Start 'TurboG Mikrotik Logger Service' from services.
+
 - You can connect to  http://127.0.0.1:8077 on an internet browser.
 
 Application Remove Steps
 ------------------------
 - Stop server from services.
+
 - Uninstall from 'Programs and Features' (Name can be different on your windows)
+
 - Remove user from MySQL server
+
 - Drop database from MySQL server
 
-![Alt text](http://www.turbog.com/wp-content/uploads/2012/05/mainscreen.png "title")
-
+![Alt text](http://www.md5m.com/wp-content/uploads/2012/05/mainscreen.png "title")
