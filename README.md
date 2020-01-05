@@ -36,6 +36,10 @@ SQLite edition also support self install. Just install and open your web browser
 Default username admin and password is 1
 Don’t forget prepare your mikrotik devices. You can learn more details from screen shots. All mikrotik configurations must be same with in application screen shots.
 
+Screenshots : 
+
+http://www.md5m.com/?p=122
+
 ![Alt text](http://www.md5m.com/wp-content/uploads/2012/05/service.png "title")
 
 Application Installation Steps
